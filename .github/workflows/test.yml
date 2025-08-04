@@ -1,5 +1,9 @@
 name: CI
 
+env:
+  FOUNDRY_PROFILE: ci
+  FOUNDRY_DISABLE_NIGHTLY_WARNING: 1
+
 on:
   push:
   pull_request:
