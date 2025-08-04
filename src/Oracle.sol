@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "../hedera/HederaTokenService.sol";
-import "../hedera/HederaResponseCodes.sol";
+import "lib/hedera/HederaTokenService.sol";
+import "lib/hedera/HederaResponseCodes.sol";
 
 contract HederaDataOracle is HederaTokenService {
     address public owner;
